@@ -1,5 +1,24 @@
 # Rendus MVC Rivaux Hugo
 
+Bonjour Monsieur,
+
+J'espère que vous avez passez de bonne fêtes, de mon côté j'ai oublier le devoir donc j'ai du travailler pendant les fêtes xD.
+
+Pour vous expliquer un peu se que j'ai fais :
+
+- J'ai commencer par la création de test avec PHPUnit, j'ai donc intaller PHPUnit. Ensuite j'ai ensuite créer un dossier Tests avec à l'intérieur les tests des pages Container et Router, et également un controller Test TestController. Les pages dans le dossier Test contiennes des erreurs mais celle ci n'empêche pas la réalistion des tests. Voici les commandes : vendor/bin/phpunit Tests/RouterTest.php et vendor/bin/phpunit Tests/ContainerTest.php
+
+- Ensuite j'ai voulu rendre dynamique la création de service dans la pages Container.php, j'ai pu ensuite faire un Test grace à PHPUnit et ça a l'air de marcher !
+
+- Pour finir j'ai essayer de définir des commandes dans la console en créant une dossier Command ou se retrouve toute les commands que je veux créer ensuite un dossier Console ou se retrouve le fichier qui gère ces command, ça été assez dur je me suis pas mal aider d'internet pour celle là enfin encore plus que pour les autres xD. Et je n'ai finaldement pas réussi ça me met souvent des erreur avec la page Kernel.php, j'ai l'impresssion que la logique est bonne mais qu'il manque quelque chose. J'espère avoir un retour au moins sur celui là pour savoir ou sa merde.
+
+En vous remerciant par avance,
+Cordialement.
+
+Rivaux Hugo
+
+B3 IW
+
 ##### Consigne
 
 ## Twig : définition d'une extension pour créer des URL dynamiquement

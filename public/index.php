@@ -16,6 +16,7 @@ use Doctrine\ORM\ORMSetup;
 use Symfony\Component\Dotenv\Dotenv;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
+use App\Console\CustomApplication;
 
 if (
     php_sapi_name() !== 'cli' && // Environnement d'exécution != console
@@ -90,3 +91,7 @@ try {
     http_response_code(500);
     echo "Erreur interne, veuillez contacter l'administrateur";
 }
+
+
+$application = new CustomApplication();
+$application->run();
