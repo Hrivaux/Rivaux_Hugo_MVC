@@ -1,26 +1,6 @@
-# Rendus MVC Rivaux Hugo 
+# Rendus MVC Rivaux Hugo
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##### Consigne #####
+##### Consigne
 
 ## Twig : définition d'une extension pour créer des URL dynamiquement
 

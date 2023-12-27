@@ -6,12 +6,19 @@ use Twig\Environment;
 
 abstract class AbstractController
 {
-    public function __construct(
-        protected Environment $twig
-    ) {
+    protected Environment $twig;
+
+    public function __construct(Environment $twig)
+    {
+        $this->twig = $twig;
     }
 
-    public function redirect(string $location): void
+    protected function render(string $template, array $parameters = []): string
+    {
+        return $this->twig->render($template, $parameters);
+    }
+
+    protected function redirect(string $location): void
     {
         header('Location: ' . $location);
         exit;
